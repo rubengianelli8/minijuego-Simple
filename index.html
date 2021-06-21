@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<style type="text/css">
+		.caja{
+			width: 40px;
+			height: 40px;
+			margin: 20px;
+			border: 2px solid black;
+			border-radius: 5px;
+
+		}
+		.boton{
+			width: 40px;
+			height: 40px;
+			margin: 20px;
+			border-radius: 5px;
+		}
+		.contenedor{
+			width: 100vw;
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+		}
+	</style>
+	<div class="contenedor">
+		<div class="caja n0"></div>
+		<div class="caja n1"></div>
+		<div class="caja n2"></div>
+		<div class="caja n3"></div>
+		<div class="caja n4"></div>
+	</div>
+	<div class="contenedor">
+		<div class="texto"></div>
+	</div>
+	<div class="contenedor">
+	 	<button onclick="botones(0)" class="boton">1</button>
+		<button onclick="botones(1)" class="boton">1</button>
+		<button onclick="botones(2)" class="boton">2</button>
+		<button onclick="botones(3)" class="boton">3</button>
+		<button onclick="botones(4)" class="boton">4</button>
+		<button onclick="botones(5)" class="boton">5</button>
+	</div>
+	<div class="contenedor">
+		<div class="textoExito"></div>
+	</div>
+	<script src="app.js"></script>
+</body>
+</html>
